@@ -67,7 +67,7 @@ $(function() {
          * hiding/showing of the menu element.
          */
         it('the menu element is hidden by default', function() {
-            document.onload;
+            //document.onload;
 
             expect(bodyClass).toBe('menu-hidden');
         });
