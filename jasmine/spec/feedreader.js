@@ -36,7 +36,7 @@ $(function() {
                 expect(typeof element.url).toEqual('string');
                 expect(element.url.length).not.toBe(0);
                 expect(element.url.startsWith('http://')).toBe(true);
-            });  
+            });
         });
 
         /* TODO: Write a test that loops through each feed
@@ -47,7 +47,7 @@ $(function() {
             allFeeds.forEach(function(element) {
                 expect(element.name).toBeDefined();
                 expect(element.name.length).not.toBe(0);
-            });  
+            });
         });
     });
 
@@ -99,7 +99,7 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 done();
-            });   
+            });
         });
 
         it('at least a single .entry element within the .feed container', function(done) {
@@ -120,7 +120,7 @@ $(function() {
             loadFeed(1, function() {
                 feed = $('.feed').html();
                 done();
-            });   
+            });
         });
 
         it('the content changes when a new feed is loaded', function(done) {
@@ -128,7 +128,7 @@ $(function() {
                 newFeed = $('.feed').html();
                 expect(newFeed).not.toBe(feed);
                 done();
-            });    
+            });
         });
     });
 }());
