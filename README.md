@@ -9,4 +9,4 @@ Testing is an important part of the development process and many organizations p
 
 # How to view?
 
-Clone the repository from github on your computer vith git bash and open index.html in your browser, or check the [github.io] page () (jasmine included on the bottom). Feel free to write other tests on the project!
+Clone the repository from github on your computer vith git bash and open index.html in your browser, or check the [github.io page](https://putyi.github.io/fend-project-feedreader/) (jasmine included on the bottom). Feel free to write other tests on the project!
