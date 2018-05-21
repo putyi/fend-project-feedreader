@@ -1,6 +1,6 @@
 # Project Overview
 
-This Project is a Part of Front End NanoDegree by Udacity. In this project I was given a web-based application that reads RSS feeds. The lists are found in a left-slider menu that slides open after its icon is clicked. The original developer of this application had already included [Jasmine](http://jasmine.github.io/). The task was to write several test suites and specs, which I added to <jasmine/spec/feedreader.js>. The original version of this file contained ToDos.
+This Project is a Part of Front End NanoDegree by Udacity. In this project I was given a web-based application that reads RSS feeds. The lists are found in a left-slider menu that slides open after its icon is clicked. The original developer of this application had already included [Jasmine](http://jasmine.github.io/). The task was to write several test suites and specs, which I added to `jasmine/spec/feedreader.js`. The original version of this file contained ToDos.
 
 ## Why this Project?
 
